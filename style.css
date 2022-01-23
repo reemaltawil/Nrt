@@ -1,0 +1,62 @@
+
+body {
+    font-family: Dongle;
+    text-align: center;
+    background: #ddd;
+    font-size: 26px;
+    background:url(https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png);
+  }
+  #anim {
+    animation-name: background;
+    animation-duration: 3s;
+  }
+  nav{
+      display: flex;
+      justify-content: flex-end;
+      background: black;
+      align-items: center;
+  }
+  .nav-link{
+      display: flex;
+      list-style: none;
+      gap: 20px;
+      padding-right: 30px;
+  }
+  .nav-link li a{
+      text-decoration: none;
+      color: blanchedalmond;
+  }
+  h1 {
+    font-size: 60px;
+    margin-block: auto;
+  }
+  button {
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    padding: 5px 10px 8px 10px;
+  }
+  button:hover {
+    animation-name: background-color;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+  }
+  img {
+    border-radius: 50%;
+    width: 100px;
+    max-width: 100%;
+    height: auto;
+  }
+  .my-info{
+      border: black;
+      background-color: whitesmoke;
+      border-style: solid;
+  }
+  ul {
+    text-align: center;
+    display: inline-block;
+
+  }
+  footer {
+    display:flex;
+  }
